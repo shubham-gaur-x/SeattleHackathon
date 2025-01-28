@@ -1,6 +1,6 @@
 # SeattleHackathon
 
-Welcome to the **SeattleHackathon** project repository! This project was developed during a hackathon and demonstrates the application of machine learning and data analysis techniques to solve a specific problem (add the exact problem statement if applicable). Below, you'll find an overview of the project, including its objectives, methodology, and instructions for usage.
+Welcome to the **SeattleHackathon** project repository! This project was developed during the "Needle in a Hack Stack" hackathon hosted by Northeastern University in collaboration with the City of Seattle. The hackathon aimed to utilize Seattle's Building Energy Benchmarking Open Data to devise innovative solutions for advancing energy efficiency and reducing greenhouse gas emissions (GHG).
 
 ---
 
@@ -17,12 +17,20 @@ Welcome to the **SeattleHackathon** project repository! This project was develop
 ---
 
 ## Project Overview
-This project focuses on applying machine learning models to analyze and predict outcomes based on data collected for the hackathon. The main goal is to leverage data-driven insights to address a real-world challenge. (Provide a brief description of the challenge solved during the hackathon.)
+The "Needle in a Hack Stack" hackathon focused on leveraging Seattle's open data to identify actionable strategies for reducing building-related GHG emissions. The hackathon aligns with the City of Seattle's Building Emissions Performance Standard (BEPS) policy, aimed at reducing emissions from large buildings by 27% by 2050.
+
+Participants were encouraged to:
+- Analyze the Building Energy Benchmarking Open Data.
+- Incorporate equity analysis using the Seattle Race and Social Equity Index.
+- Develop solutions that address sustainability and equity challenges.
 
 ---
 
 ## Objective
-The primary objective of this project is to (add your objective, e.g., predict trends, classify data, etc.). By implementing robust data preprocessing and applying advanced machine learning models, the project aims to achieve high performance and meaningful results.
+The primary objective of this project is to harness public data to propose solutions for improving energy efficiency in Seattle's buildings. By integrating data analytics and machine learning, the project aims to:
+- Identify trends in energy usage.
+- Suggest actionable steps for reducing emissions.
+- Ensure equitable outcomes for all communities.
 
 ---
 
@@ -41,29 +49,26 @@ The primary objective of this project is to (add your objective, e.g., predict t
 ---
 
 ## Dataset
-- **Source**: Mention the dataset source.
-- **Description**: Briefly describe the dataset, including the key features and size.
-- **Preprocessing**: Outline the preprocessing steps performed, such as data cleaning, feature engineering, or handling missing values.
+- **Source**: [Seattle Building Energy Benchmarking Open Data](https://data.seattle.gov/).
+- **Description**: This dataset includes energy performance data for non-residential and multifamily properties (20,000 square feet or larger) in Seattle. Key metrics include energy usage, emissions, and building characteristics.
+- **Preprocessing**: Data cleaning involved handling missing values, feature engineering, and merging additional datasets like the Seattle Race and Social Equity Index.
 
 ---
 
 ## Methodology
 1. **Exploratory Data Analysis (EDA)**:
    - Visualizations to understand data distributions and trends.
-   - Insights into correlations between features.
+   - Insights into correlations between features such as energy usage and emissions.
 
 2. **Feature Engineering**:
-   - Selection and creation of features for better model performance.
+   - Integration of equity data to identify disparities in energy performance.
 
 3. **Model Training**:
    - Models used: Logistic Regression, K-Nearest Neighbors (KNN), etc.
-   - Comparison of model performance metrics.
+   - Evaluation based on accuracy, precision, recall, and F1-score.
 
-4. **Evaluation**:
-   - Performance metrics: Accuracy, Precision, Recall, F1-Score.
-
-5. **Deployment (if applicable)**:
-   - Flask app to demonstrate model predictions interactively.
+4. **Deployment (if applicable)**:
+   - Flask app to showcase data insights and solutions interactively.
 
 ---
 
@@ -90,16 +95,14 @@ The primary objective of this project is to (add your objective, e.g., predict t
 ---
 
 ## Future Improvements
-- Expand the dataset for more generalizable models.
-- Incorporate deep learning models for enhanced predictions.
-- Improve the user interface of the Flask app.
-- Add functionality for real-time data inputs.
+- Incorporate additional datasets to enhance model predictions.
+- Expand the analysis to include real-time energy data.
+- Develop a user-friendly dashboard for interactive visualizations.
+- Refine equity analysis to ensure more targeted recommendations.
 
 ---
 
 ## Acknowledgments
-Special thanks to the hackathon organizers and team members for their support and collaboration.
+Special thanks to Northeastern University and the City of Seattle for organizing the hackathon and providing mentorship. The project is inspired by Seattle's commitment to sustainability and equity through initiatives like the Building Emissions Performance Standard (BEPS) policy and the One Seattle Data Strategy.
 
----
-
-Feel free to raise issues or contribute to this project by submitting a pull request!
+Kudos to all hackathon participants for their innovative solutions and collaborative efforts!
